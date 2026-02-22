@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+    background-color: #121826;
+    background-image:url("../resources/Background_image@2x.png");
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10px;
+   
+}
+.feedback-description{
+    margin: 0px 100px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.feedback-description>h1{
+    font-size: 2rem;
+}
+.heading-1{
+    background-color: #FDEED9;
+    display: inline;
+    padding: 15px;
+    border-radius: 100%;
+}
+.heading-2{
+    background-color: #DEE9FB;
+    display: inline;
+    padding: 15px;
+    border-radius: 100%;
+}
+.heading-3{
+    background-color: #FBE5E7;
+    display: inline;
+    padding: 15px;
+    border-radius: 100%;
+}
+.card-1-description,.card-2-description,.card-3-description{
+    font-size: 20px;
+}
+.feedback-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 0px 100px;
+}
+.feedback-card img{
+    border-radius: 10px;
+    width: 100%;
+}
+.card{
+    background-color: #212936;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
