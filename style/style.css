@@ -3,9 +3,10 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
-section{
+.section-start{
     background-color: #121826;
-    background-image:url("../resources/Background_image@2x.png");
+    background-image:url("../resources/Background_image@2jx.png");
+    background-size: cover;
     height: fit-content;
     background-repeat: no-repeat;
     background-position: center;
