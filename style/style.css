@@ -70,6 +70,9 @@ section{
     gap: 10px;
     margin: 0px 5px;
 }
+.feedback-description>h1{
+    font-size: 2rem;
+}
 .feedback-description{
     margin: 0px 0px;
 
